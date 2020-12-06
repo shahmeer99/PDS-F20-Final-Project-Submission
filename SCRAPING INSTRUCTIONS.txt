@@ -1,0 +1,14 @@
+These are the following steps you will need to perform the scraping for the PSA website. 
+
+1. Manually open the rankings page and choose the selected month-year combiniation. Press the load more button until the top 200 ranks are 
+displayed (you can keep going depending how much you can keep going depedning on how many you want). Once loaded, save that webpage in 'single HTML file' format. The
+extension for such a file will be '.mhtml'. Save this file in the following format: "<year>_<month>_rankings.mhtml" (e.g: january_2018_rankings.mhtml). Note that all characters are 
+lower cased. Save all such files in a folder/directory called 'links' and put this directory in the same folder as the Jupyter Notebook. 
+
+2. Now the manual set up is done. Run the 'Making Unqiue Links' Cell in the notebook.
+
+3. Call the 'group_source_extractor()' function.
+
+4. Run the cells that follow that in the Web Scraping section of the notebook till the end of the section and results will be saved in a csv file with the name 
+   'squash_rankings_till_sept_2020.csv'. This name can be changed to anything you please. 
+
